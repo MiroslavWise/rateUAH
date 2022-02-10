@@ -62,7 +62,6 @@ export default function Rate(){
 
             return (
                 <>
-// Верхняя навигационная панель --------------------------------------------------------------------//
                 <Box
             className='nav'
             component="form"
@@ -108,7 +107,6 @@ export default function Rate(){
                 variant="standard"
                 />
             </div>
-// Таблица------------------------------------------------------------------------------------------//
             </Box>
                 <br/>
                 <table style={{marginTop: '0px'}} >
