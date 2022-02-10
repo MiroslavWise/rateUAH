@@ -1,0 +1,22 @@
+.nav{
+        height: 50px;
+        top: 0;
+        position: relative;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    height: 100px;
+}
+
+table {
+    border: 1px solid grey;
+ }
+
+ th {
+    border: 1px solid grey;
+ }
+
+ td {
+    border: 1px solid grey;
+ }
