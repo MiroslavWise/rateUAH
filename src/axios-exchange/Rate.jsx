@@ -75,7 +75,6 @@ export default function Rate(){
                 <TextField
                 id="outlined-multiline-flexible"
                 label="Гривня"
-                multiline
                 type='number' 
                 color='primary'
                 maxRows={1}
@@ -87,7 +86,6 @@ export default function Rate(){
                 <TextField
                 id="filled-multiline-flexible"
                 label="Dollar"
-                multiline
                 maxRows={1}
                 value={dollar}
                 onChange={handleChangeDollar}
@@ -99,7 +97,6 @@ export default function Rate(){
                 <TextField
                 id="standard-multiline-flexible"
                 label="Euro"
-                multiline
                 type="number"
                 maxRows={1}
                 value={euro}
