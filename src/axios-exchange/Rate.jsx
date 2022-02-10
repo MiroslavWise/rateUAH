@@ -11,7 +11,7 @@ import TextField from '@mui/material/TextField';
 export default function Rate(){
    //Состояние изменения курса 
 
-    const [value, setValue] = React.useState([]);
+    const [value, setValue] = React.useState(1);
     const [euro, setEuro] = React.useState([]);
     const [dollar, setDollar] = React.useState([]);
 
@@ -34,12 +34,12 @@ export default function Rate(){
         if(item.r030 === 840){
         return item.rate 
         }})[0]?.rate
+       
 
     let euroRate = rate.filter((item)=>{
         if(item.r030 === 978){
         return item.rate
         }})[0]?.rate
-
 // Взаимодействие с вводимыми данными
 
     const handleChange = (event) => {
