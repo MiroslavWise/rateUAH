@@ -118,25 +118,6 @@ export default function Rate(){
                 <tbody>
                             {
                                 rate.map((item) =>{
-                                if (item.r030 === 840){
-                                    return <tr key={item.r030}>
-                                        <td>{item.txt}</td>
-                                        <td>
-                                            {(value/item.rate).toFixed(3)}
-                                        </td>
-                                        <td>{item.cc}</td>
-                                        <td>{item.exchangedate}</td>
-                                    </tr>
-                                } else if(item.r030 === 978){
-                                    return <tr key={item.r030}>
-                                        <td>{item.txt}</td>
-                                        <td>
-                                                {(value/item.rate).toFixed(3)}
-                                        </td>
-                                        <td>{item.cc}</td>
-                                        <td>{item.exchangedate}</td>
-                                    </tr>
-                                }else {
                                 return <tr key={item.r030}>
                                         <td>{item.txt}</td>
                                         <td>
@@ -145,7 +126,6 @@ export default function Rate(){
                                         <td>{item.cc}</td>
                                         <td>{item.exchangedate}</td>
                                     </tr>}
-                                }
                                 )
                             }
                 </tbody>
